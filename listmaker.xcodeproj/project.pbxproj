@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB0FF03F2526423400ECC764 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0FF03E2526423400ECC764 /* AppDelegate.swift */; };
+		BB0FF0412526423400ECC764 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0FF0402526423400ECC764 /* SceneDelegate.swift */; };
+		BB0FF0432526423400ECC764 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0FF0422526423400ECC764 /* ContentView.swift */; };
+		BB0FF0452526423600ECC764 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB0FF0442526423600ECC764 /* Assets.xcassets */; };
+		BB0FF0482526423600ECC764 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB0FF0472526423600ECC764 /* Preview Assets.xcassets */; };
+		BB0FF04B2526423600ECC764 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB0FF0492526423600ECC764 /* LaunchScreen.storyboard */; };
+		BB0FF0562526423600ECC764 /* listmakerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0FF0552526423600ECC764 /* listmakerTests.swift */; };
+		BB0FF0612526423600ECC764 /* listmakerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0FF0602526423600ECC764 /* listmakerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BB0FF0522526423600ECC764 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB0FF0332526423400ECC764 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB0FF03A2526423400ECC764;
+			remoteInfo = listmaker;
+		};
+		BB0FF05D2526423600ECC764 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB0FF0332526423400ECC764 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB0FF03A2526423400ECC764;
+			remoteInfo = listmaker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BB0FF03B2526423400ECC764 /* listmaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = listmaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB0FF03E2526423400ECC764 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BB0FF0402526423400ECC764 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BB0FF0422526423400ECC764 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BB0FF0442526423600ECC764 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BB0FF0472526423600ECC764 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BB0FF04A2526423600ECC764 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BB0FF04C2526423600ECC764 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB0FF0512526423600ECC764 /* listmakerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = listmakerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB0FF0552526423600ECC764 /* listmakerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = listmakerTests.swift; sourceTree = "<group>"; };
+		BB0FF0572526423600ECC764 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB0FF05C2526423600ECC764 /* listmakerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = listmakerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB0FF0602526423600ECC764 /* listmakerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = listmakerUITests.swift; sourceTree = "<group>"; };
+		BB0FF0622526423600ECC764 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB0FF0382526423400ECC764 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB0FF04E2526423600ECC764 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB0FF0592526423600ECC764 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB0FF0322526423400ECC764 = {
+			isa = PBXGroup;
+			children = (
+				BB0FF03D2526423400ECC764 /* listmaker */,
+				BB0FF0542526423600ECC764 /* listmakerTests */,
+				BB0FF05F2526423600ECC764 /* listmakerUITests */,
+				BB0FF03C2526423400ECC764 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BB0FF03C2526423400ECC764 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB0FF03B2526423400ECC764 /* listmaker.app */,
+				BB0FF0512526423600ECC764 /* listmakerTests.xctest */,
+				BB0FF05C2526423600ECC764 /* listmakerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB0FF03D2526423400ECC764 /* listmaker */ = {
+			isa = PBXGroup;
+			children = (
+				BB0FF03E2526423400ECC764 /* AppDelegate.swift */,
+				BB0FF0402526423400ECC764 /* SceneDelegate.swift */,
+				BB0FF0422526423400ECC764 /* ContentView.swift */,
+				BB0FF0442526423600ECC764 /* Assets.xcassets */,
+				BB0FF0492526423600ECC764 /* LaunchScreen.storyboard */,
+				BB0FF04C2526423600ECC764 /* Info.plist */,
+				BB0FF0462526423600ECC764 /* Preview Content */,
+			);
+			path = listmaker;
+			sourceTree = "<group>";
+		};
+		BB0FF0462526423600ECC764 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BB0FF0472526423600ECC764 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BB0FF0542526423600ECC764 /* listmakerTests */ = {
+			isa = PBXGroup;
+			children = (
+				BB0FF0552526423600ECC764 /* listmakerTests.swift */,
+				BB0FF0572526423600ECC764 /* Info.plist */,
+			);
+			path = listmakerTests;
+			sourceTree = "<group>";
+		};
+		BB0FF05F2526423600ECC764 /* listmakerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BB0FF0602526423600ECC764 /* listmakerUITests.swift */,
+				BB0FF0622526423600ECC764 /* Info.plist */,
+			);
+			path = listmakerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB0FF03A2526423400ECC764 /* listmaker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB0FF0652526423600ECC764 /* Build configuration list for PBXNativeTarget "listmaker" */;
+			buildPhases = (
+				BB0FF0372526423400ECC764 /* Sources */,
+				BB0FF0382526423400ECC764 /* Frameworks */,
+				BB0FF0392526423400ECC764 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = listmaker;
+			productName = listmaker;
+			productReference = BB0FF03B2526423400ECC764 /* listmaker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BB0FF0502526423600ECC764 /* listmakerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB0FF0682526423600ECC764 /* Build configuration list for PBXNativeTarget "listmakerTests" */;
+			buildPhases = (
+				BB0FF04D2526423600ECC764 /* Sources */,
+				BB0FF04E2526423600ECC764 /* Frameworks */,
+				BB0FF04F2526423600ECC764 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB0FF0532526423600ECC764 /* PBXTargetDependency */,
+			);
+			name = listmakerTests;
+			productName = listmakerTests;
+			productReference = BB0FF0512526423600ECC764 /* listmakerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BB0FF05B2526423600ECC764 /* listmakerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB0FF06B2526423600ECC764 /* Build configuration list for PBXNativeTarget "listmakerUITests" */;
+			buildPhases = (
+				BB0FF0582526423600ECC764 /* Sources */,
+				BB0FF0592526423600ECC764 /* Frameworks */,
+				BB0FF05A2526423600ECC764 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB0FF05E2526423600ECC764 /* PBXTargetDependency */,
+			);
+			name = listmakerUITests;
+			productName = listmakerUITests;
+			productReference = BB0FF05C2526423600ECC764 /* listmakerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB0FF0332526423400ECC764 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1170;
+				LastUpgradeCheck = 1170;
+				ORGANIZATIONNAME = "ismail keskin";
+				TargetAttributes = {
+					BB0FF03A2526423400ECC764 = {
+						CreatedOnToolsVersion = 11.7;
+					};
+					BB0FF0502526423600ECC764 = {
+						CreatedOnToolsVersion = 11.7;
+						TestTargetID = BB0FF03A2526423400ECC764;
+					};
+					BB0FF05B2526423600ECC764 = {
+						CreatedOnToolsVersion = 11.7;
+						TestTargetID = BB0FF03A2526423400ECC764;
+					};
+				};
+			};
+			buildConfigurationList = BB0FF0362526423400ECC764 /* Build configuration list for PBXProject "listmaker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB0FF0322526423400ECC764;
+			productRefGroup = BB0FF03C2526423400ECC764 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB0FF03A2526423400ECC764 /* listmaker */,
+				BB0FF0502526423600ECC764 /* listmakerTests */,
+				BB0FF05B2526423600ECC764 /* listmakerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB0FF0392526423400ECC764 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB0FF04B2526423600ECC764 /* LaunchScreen.storyboard in Resources */,
+				BB0FF0482526423600ECC764 /* Preview Assets.xcassets in Resources */,
+				BB0FF0452526423600ECC764 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB0FF04F2526423600ECC764 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB0FF05A2526423600ECC764 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB0FF0372526423400ECC764 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB0FF03F2526423400ECC764 /* AppDelegate.swift in Sources */,
+				BB0FF0412526423400ECC764 /* SceneDelegate.swift in Sources */,
+				BB0FF0432526423400ECC764 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB0FF04D2526423600ECC764 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB0FF0562526423600ECC764 /* listmakerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB0FF0582526423600ECC764 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB0FF0612526423600ECC764 /* listmakerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BB0FF0532526423600ECC764 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB0FF03A2526423400ECC764 /* listmaker */;
+			targetProxy = BB0FF0522526423600ECC764 /* PBXContainerItemProxy */;
+		};
+		BB0FF05E2526423600ECC764 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB0FF03A2526423400ECC764 /* listmaker */;
+			targetProxy = BB0FF05D2526423600ECC764 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BB0FF0492526423600ECC764 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB0FF04A2526423600ECC764 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BB0FF0632526423600ECC764 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BB0FF0642526423600ECC764 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB0FF0662526423600ECC764 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"listmaker/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = listmaker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "list-make.listmaker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BB0FF0672526423600ECC764 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"listmaker/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = listmaker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "list-make.listmaker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BB0FF0692526423600ECC764 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = listmakerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "list-make.listmakerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/listmaker.app/listmaker";
+			};
+			name = Debug;
+		};
+		BB0FF06A2526423600ECC764 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = listmakerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "list-make.listmakerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/listmaker.app/listmaker";
+			};
+			name = Release;
+		};
+		BB0FF06C2526423600ECC764 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = listmakerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "list-make.listmakerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = listmaker;
+			};
+			name = Debug;
+		};
+		BB0FF06D2526423600ECC764 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = listmakerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "list-make.listmakerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = listmaker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB0FF0362526423400ECC764 /* Build configuration list for PBXProject "listmaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB0FF0632526423600ECC764 /* Debug */,
+				BB0FF0642526423600ECC764 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB0FF0652526423600ECC764 /* Build configuration list for PBXNativeTarget "listmaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB0FF0662526423600ECC764 /* Debug */,
+				BB0FF0672526423600ECC764 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB0FF0682526423600ECC764 /* Build configuration list for PBXNativeTarget "listmakerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB0FF0692526423600ECC764 /* Debug */,
+				BB0FF06A2526423600ECC764 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB0FF06B2526423600ECC764 /* Build configuration list for PBXNativeTarget "listmakerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB0FF06C2526423600ECC764 /* Debug */,
+				BB0FF06D2526423600ECC764 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB0FF0332526423400ECC764 /* Project object */;
+}
